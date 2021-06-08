@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tabPatients>
+    <Patient>
+    <dossier>1</dossier>
+        <nom>Léger</nom>
+        <prénom>Émile</prénom>
+        <naissance>26 mars 1917</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Patient>
+    <dossier>2</dossier>
+        <nom>Bernard</nom>
+        <prénom>Marie</prénom>
+        <naissance>3 février 1946</naissance>
+        <sexe>F</sexe>
+    </Patient>
+    <Patient>
+        <dossier>3</dossier>
+        <nom>Chartrand</nom>
+        <prénom>Guy</prénom>
+        <naissance>5 Avril 1959</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Patient>
+        <dossier>4</dossier>
+        <nom>Coté</nom>
+        <prénom>André</prénom>
+        <naissance>2 septembre 1978</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Patient>
+        <dossier>5</dossier>
+        <nom>Lavoie</nom>
+        <prénom>Carole</prénom>
+        <naissance>4 novembre 1973</naissance>
+        <sexe>F</sexe>
+    </Patient>
+    <Patient>
+        <dossier>6</dossier>
+        <nom>Martin</nom>
+        <prénom>Diane</prénom>
+        <naissance>2 décembre 1965</naissance>
+        <sexe>F</sexe>
+    </Patient>
+    <Patient>
+        <dossier>7</dossier>
+        <nom>Lacroix</nom>
+        <prénom>Pauline</prénom>
+        <naissance>25 janvier 1956</naissance>
+        <sexe>F</sexe>
+    </Patient>
+    <Patient>
+        <dossier>8</dossier>
+        <nom>St-Jean</nom>
+        <prénom>Arthur</prénom>
+        <naissance>7 octobre 1912</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Patient>
+        <dossier>9</dossier>
+        <nom>Béchard</nom>
+        <prénom>Marc</prénom>
+        <naissance>8 août 1980</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Patient>
+        <dossier>10</dossier>
+        <nom>Chartrand</nom>
+        <prénom>Mario</prénom>
+        <naissance>23 juillet 1947</naissance>
+        <sexe>M</sexe>
+    </Patient>
+    <Hopital>
+        <établissement>1234</établissement>
+        <nom>Centre hospitalier de St. Mary</nom>
+        <adresse>3830, avenue Lacombe Montréal, Qc</adresse>
+        <codePostal>H3T 1M5</codePostal>
+        <téléphone>(514)-345-3511</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>2346</établissement>
+        <nom>Hôpital Saint-Luc du CHUM</nom>
+        <adresse>1058, rue Saint-Denis, Montréal, Qc</adresse>
+        <codePostal>H2X 3J4</codePostal>
+        <téléphone>(514)-890-8000</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>3980</établissement>
+        <nom>Hôpital Santa Cabrini</nom>
+        <adresse>5655, rue Saint-Zotique Est Montréal,Qc</adresse>
+        <codePostal>H1T 1P7</codePostal>
+        <téléphone>(514)-252-6000</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>4177</établissement>
+        <nom>Hôpital Jean-Talon</nom>
+        <adresse>1385, rue Jean-Talon Est Montréal, Qc</adresse>
+        <codePostal>H2E 1S6</codePostal>
+        <téléphone>(514)-495-6767</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>7306</établissement>
+        <nom>Hôpital Fleury</nom>
+        <adresse>2180, rue Fleury Est Montréal, Qc</adresse>
+        <codePostal>H2B 1K3</codePostal>
+        <téléphone>(514)-384-2000</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>8895</établissement>
+        <nom>Hôpital Rivière-des-Prairies</nom>
+        <adresse>7070, boulevard Perras Montréal, Qc</adresse>
+        <codePostal>H1E 1A4</codePostal>
+        <téléphone>(514)-323-7260</téléphone>
+    </Hopital>
+    <Hopital>
+        <établissement>3655</établissement>
+        <nom>Hôpital St-Hubert</nom>
+        <adresse>7070, boulevard Perras Montréal, Qc</adresse>
+        <codePostal>H1E 1A4</codePostal>
+        <téléphone>(514)-323-7260</téléphone>
+    </Hopital>
+    <Hospitalisation>
+        <codeÉtablissement>1234</codeÉtablissement>
+        <noDossierPatient>5</noDossierPatient>
+        <dateAdmission>14-août-01</dateAdmission>
+        <dateSortie>14-août-01</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>1234</codeÉtablissement>
+        <noDossierPatient>10</noDossierPatient>
+        <dateAdmission>12-déc.-92</dateAdmission>
+        <dateSortie>12-déc.-92</dateSortie>
+        <spécialité>chirurgie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>2346</codeÉtablissement>
+        <noDossierPatient>8</noDossierPatient>
+        <dateAdmission>03-mars-03</dateAdmission>
+        <dateSortie>05-mars-03</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>2346</codeÉtablissement>
+        <noDossierPatient>1</noDossierPatient>
+        <dateAdmission>11-nov.-97</dateAdmission>
+        <dateSortie>12-nov.-97</dateSortie>
+        <spécialité>orthopédie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>2346</codeÉtablissement>
+        <noDossierPatient>3</noDossierPatient>
+        <dateAdmission>12-avr.-95</dateAdmission>
+        <dateSortie>30-avr.-95</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>3980</codeÉtablissement>
+        <noDossierPatient>5</noDossierPatient>
+        <dateAdmission>14-févr.-00</dateAdmission>
+        <dateSortie>14-mars-00</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>3980</codeÉtablissement>
+        <noDossierPatient>5</noDossierPatient>
+        <dateAdmission>01-janv.-01</dateAdmission>
+        <dateSortie>01-févr.-01</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>3980</codeÉtablissement>
+        <noDossierPatient>9</noDossierPatient>
+        <dateAdmission>03-avr.-95</dateAdmission>
+        <dateSortie>08-avr.-95</dateSortie>
+        <spécialité>orthopédie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>3980</codeÉtablissement>
+        <noDossierPatient>7</noDossierPatient>
+        <dateAdmission>27-nov.-99</dateAdmission>
+        <dateSortie>04-déc.-99</dateSortie>
+        <spécialité>chirurgie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>3980</codeÉtablissement>
+        <noDossierPatient>10</noDossierPatient>
+        <dateAdmission>28-avr.-97</dateAdmission>
+        <dateSortie>05-mai-97</dateSortie>
+        <spécialité>chirurgie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>4177</codeÉtablissement>
+        <noDossierPatient>3</noDossierPatient>
+        <dateAdmission>03-août-01</dateAdmission>
+        <dateSortie>05-déc.-01</dateSortie>
+        <spécialité>médecine</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>4177</codeÉtablissement>
+        <noDossierPatient>3</noDossierPatient>
+        <dateAdmission>02-févr.-02</dateAdmission>
+        <dateSortie>23-févr.-02</dateSortie>
+        <spécialité>orthopédie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>7306</codeÉtablissement>
+        <noDossierPatient>2</noDossierPatient>
+        <dateAdmission>23-mai-98</dateAdmission>
+        <dateSortie>27-mai-98</dateSortie>
+        <spécialité>orthopédie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>8895</codeÉtablissement>
+        <noDossierPatient>10</noDossierPatient>
+        <dateAdmission>23-août-98</dateAdmission>
+        <dateSortie>23-août-98</dateSortie>
+        <spécialité>chirurgie</spécialité>
+    </Hospitalisation>
+    <Hospitalisation>
+        <codeÉtablissement>7306</codeÉtablissement>
+        <noDossierPatient>2</noDossierPatient>
+        <dateAdmission>23-févr.-98</dateAdmission>
+        <dateSortie>27-févr.-98</dateSortie>
+        <spécialité>orthopédie</spécialité>
+    </Hospitalisation>
+</tabPatients>
