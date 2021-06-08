@@ -7,7 +7,7 @@ var tabPatients; //accessible partout
 
 function chargerXML(){
 	$.ajax({
-		url:"data/Patient.xml",
+		url:"Patient.xml",
 		type:"GET",
 		dataType:"xml",
 	}).done (function(liste){
