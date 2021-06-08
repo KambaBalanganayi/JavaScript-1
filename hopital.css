@@ -13,7 +13,7 @@
   
   
   .jumbotron {
-    background-image:url("buildingheader.png");
+    background-image:url("/buildingheader.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 
@@ -23,7 +23,7 @@
     
   }
   #body{
-  background-image:url("backgrounddoc.jpg");
+  background-image:url("/backgrounddoc.jpg");
   background-size: 100%,100%;
   background-position: center;
   background-repeat: no-repeat;
