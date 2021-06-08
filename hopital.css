@@ -1,0 +1,199 @@
+/*<!--Travail Fait par Kamba Balanganayi-->
+<!--P1113891-->
+<!--IFT 1142 -- Automne 2020-->*/
+
+
+
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    
+  }
+  
+  
+  .jumbotron {
+    background-image:url("../photo/buildingheader.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    border-collapse: collapse;
+    margin-bottom: 0;
+    
+    
+  }
+  #body{
+  background-image:url("../photo/backgrounddoc.jpg");
+  background-size: 100%,100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-collapse: collapse;
+  position: relative;
+  height: 100vh;
+    
+   
+  }
+  
+  
+  #fenetre{
+  display:flex;
+  place-items: left;
+  display:none;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  color: #fff;
+  text-align: left;
+  clear: both;
+  height: 285px;
+  overflow: auto;
+  margin-top: 50px;
+  width: 90%;
+  }
+  #selPatient{
+    display:flex;
+    place-items: center;
+    display:none;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    color: #fff;
+    text-align: left;
+    clear: both;
+   
+    overflow: auto;
+    width: 10%;
+    }
+    #selEtablissement{
+      display:flex;
+      place-items: center;
+      display:none;
+      border-collapse: collapse;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      color: #fff;
+      text-align: left;
+      clear: both;
+     
+      overflow: auto;
+      width: 10%;
+      }
+      #selSpecialite{
+        display:flex;
+        place-items: center;
+        display:none;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        color: #fff;
+        text-align: left;
+        clear: both;
+       
+        overflow: auto;
+        width: 10%;
+        }
+  #contenu{
+  place-items: center;
+  display: grid;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  background-color: #4f88bd;
+  
+  }
+  #contenu1{
+    place-items: center;
+    display: grid;
+    height: 50px;
+   
+    width: 100%;
+    background-color: #4f88bd;
+    
+    }
+  #tablerow {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  #tablerow td, #tablerow th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+  
+  #tablerow tr:nth-child(even){background-color: #6bace9;}
+  
+  #tablerow tr:hover {background-color: #ddd;}
+  
+  #tablerow th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7bd17c;
+  color: white;
+  }
+  #tablerow {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  #tablerow td, #tablerow th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+  
+  #tablerow tr:nth-child(even){background-color: #6bace9;}
+  
+  #tablerow tr:hover {background-color: #ddd;}
+  
+  #tablerow th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7bd17c;
+  color: white;
+  }
+  
+  #tablerow {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  #tablerow td, #tablerow th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+  
+  #tablerow tr:nth-child(even){background-color: #6bace9;}
+  
+  #tablerow tr:hover {background-color: #ddd;}
+  
+  #tablerow th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7bd17c;
+  color: white;
+  }
+  /*---------------------*/
+  #tablerow1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+    #tablerow1 td, #tablerow1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #37393b;
+    }
+  
+  .footer {
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(17, 139, 177);
+    
+    text-align: center;
+  }
+  
