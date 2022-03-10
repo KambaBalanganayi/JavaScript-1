@@ -52,7 +52,7 @@
   #selPatient{
     display:flex;
     place-items: center;
-    display:block;
+    display:none;
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     color: #fff;
@@ -65,7 +65,7 @@
     #selEtablissement{
       display:flex;
       place-items: center;
-      display:block;
+      display:none;
       border-collapse: collapse;
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
       color: #fff;
@@ -78,7 +78,7 @@
       #selSpecialite{
         display:flex;
         place-items: center;
-        display:block;
+        display:none;
         border-collapse: collapse;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
         color: #fff;
