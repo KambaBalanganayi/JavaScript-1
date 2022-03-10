@@ -200,7 +200,7 @@ function hospParPatient(){
 		$('#contenu1').show("fast");
 		$('#contenu').show("fast");
 		$('#fenetre').show("fast");
-		$('#selPatient').hide("fast");
+		$('#selPatient').show("fast");
 		$('#selSpecialite').hide("fast");
 		$('#selEtablissement').hide("fast");
 		document.getElementById('status').style.color="orange";
