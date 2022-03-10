@@ -52,7 +52,7 @@
   #selPatient{
     display:flex;
     place-items: center;
-    display:none;
+    /*display:none;*/
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     color: #fff;
