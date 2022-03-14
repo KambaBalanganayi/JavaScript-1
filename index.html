@@ -55,11 +55,11 @@
 
       <span onClick="$('#fenetre').hide();">X</span>
           
-              <select id='selPatient' onChange="hospParPatient();" ></select>
+              <select id='selPatient' onChange="hospParPatient(this);" ></select>
          
-          <select id='selEtablissement' onChange="genererListSpecialite();"></select>
+          <select id='selEtablissement' onChange="genererListSpecialite(this);"></select>
     
-          <select id='selSpecialite' onChange="hospParSpecialite();"></select>
+          <select id='selSpecialite' onChange="hospParSpecialite(this);"></select>
       <div id="contenu1"></div>
       <div id="contenu"></div>
       
